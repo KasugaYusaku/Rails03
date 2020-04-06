@@ -56,7 +56,6 @@ end
 
 group :production do
   gem 'pg'
-  gem 'fog-aws'
 end
 
 group :test do

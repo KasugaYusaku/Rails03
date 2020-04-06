@@ -48,10 +48,5 @@ class ImageUploader < CarrierWave::Uploader::Base
   # def size_range
   #   1..10.megabytes 
   # end
-  if Rails.env.production?
-    storage :fog
-  else
-    storage :file
-  end
   
 end
