@@ -62,7 +62,7 @@ class ImageUploader < CarrierWave::Uploader::Base
         :aws_access_key_id     => ENV['S3_AKIAYHOI5EGQT43XLJN6'],
         :aws_secret_access_key => ENV['S3_FmCUF3kPiRiC/29NfHEYHKHTKWE0Q010WQekfu77']
       }
-      config.fog_directory     =  ENV['S3_BUCKET']
+      config.fog_directory     =  ENV['S3_buketbucket']
   end
   end
 end
